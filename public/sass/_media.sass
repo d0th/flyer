@@ -1,0 +1,111 @@
+
+@media screen and (min-width: 1300px)
+    .container
+        max-width: 1272px
+@media screen and (min-width: 1450px)    
+    .programs__home
+        padding-bottom: 120px!important
+        .programs__wrapper
+            .programs__nav
+                .programs__list
+                    max-width: 1400px!important
+                    .slick-prev
+                        left: 0!important
+                        margin: 0!important
+                        display: block
+                        &:before
+                            content: url(../img/_src/arrowProduct.svg)!important
+                        &.slick-disabled
+                            opacity: 0!important
+                            display: none
+                    .slick-arrow
+                        top: 50%!important
+                        margin: 0!important
+                        z-index: 2!important
+                        border: none!important
+                        &.slick-next
+                            margin: 0!important
+                            left: auto!important
+                            right: -14px!important
+                            width: 120px!important
+                            height: 100%!important
+                            display: block
+                            background: linear-gradient(90deg,hsla(0,0%,100%,0),#fff)!important
+                            &:before
+                                content: url(../img/_src/arrowProduct.svg)!important
+                                cursor: pointer!important
+                            &.slick-disabled
+                                opacity: 0!important
+                                display: none
+                    .slider__counter
+                        display: none
+    .seti__home
+        .seti__lenta
+            .slick-list
+                padding: 0 5% 0 10%!important
+@media screen and (max-width: 1449px)
+    .seti__home
+        .seti__lenta
+            .slick-list
+                padding: 0 5% 0 8%!important
+                .slick-track
+                    .slick-slide
+                        max-width: 377px
+                        .seti__itemWrap
+                            width: 377px
+                            flex-basis: 377px
+@media screen and (min-width: 1200px) and (max-width: 1340px)
+    .programs__home
+        .programs__wrapper
+            .programs__nav
+                .programs__list
+                    max-width: 1140px!important
+@media screen and (max-width: 1299px)
+    header
+        .container
+            .header
+                .header__nav
+                    display: none
+                    ul.header__list-nav
+                        flex-direction: column
+                        align-items: flex-start
+                        li.header__item
+                            .header__link
+                                padding: 0 5px
+@media screen and (min-width: 1200px) and (max-width: 1370px)
+    .advantages__list
+        .slick-dots
+            padding-left: 6vw!important
+    .insructors__sliders
+        .slick-dots
+            left: 3%!important
+            right: 3%!important
+@media (min-width: 700px) and (max-width: 767px)
+    .container
+        max-width: 680px
+        .reviews
+            .container
+                .row
+                    .instructor__list
+                        max-width: 680px!important
+    .new__slider
+        .container
+            .row
+                .newpost-slider
+                    max-width: 680px!important
+    .new__posts
+        .container
+            .row
+                .new__list
+                    max-width: 680px!important
+@media (min-width: 577px) and (max-width: 669px)
+    .main__instructor
+        .multimedia
+            .container
+                .row
+                    .instructor__list
+                        .instructor__item
+                            &.instructor-big
+                                flex-basis: 100%!important
+                            &.instructor-small
+                                flex-basis: 100%!important
